@@ -18,7 +18,8 @@ The goal is to build an accurate predictive model that can:
 
 Predict department-wide sales for 45 retail stores over the next year, taking into account various factors such as seasonality, holidays, and markdowns.
 Markdown Analysis: Understand the effect of markdowns on sales during holiday weeks versus non-holiday weeks and recommend optimal markdown strategies to maximize revenue.
-****Project Approach
+
+**Project Approach**
 
 **Data Cleaning and Preparation**
 
@@ -45,8 +46,11 @@ Markdown Interaction: Create features that capture interactions between markdown
 **Deep Learning Models (ANN):**
 
 Develop an ANN model using TensorFlow with different architectures, such as multiple hidden layers, varying activation functions, and dropout regularization to prevent overfitting.
-Train the model on historical sales data, incorporating markdowns and holiday features.**
-Markdown Impact Analysis:** Use statistical techniques to assess the impact of markdowns on sales during holiday weeks versus non-holiday weeks.
+Train the model on historical sales data, incorporating markdowns and holiday features.
+
+**Markdown Impact Analysis:**
+
+Use statistical techniques to assess the impact of markdowns on sales during holiday weeks versus non-holiday weeks.
 
 **Model Evaluation**
 
@@ -63,33 +67,40 @@ Offer suggestions for inventory management based on predicted sales volumes to r
 Deploy the trained model on AWS using Streamlit to create an interactive web app.
 Allow users to input various factors (e.g., markdown percentages, holiday indicators) to get real-time sales forecasts.
 
-**Project Evaluation Metrics
+**Project Evaluation Metrics**
 
 Metrics to be used:
 MAE, MSE, RMSE, R²
 Performance analysis on holiday weeks vs. non-holiday weeks
 Business impact of recommendations (e.g., increased revenue, reduced costs)
 
-**Data Set
+**Data Set**
 
 **Source: Historical sales data for 45 retail stores.
 Format: CSV files with multiple tabs, including Stores, Features, and Sales data.
 
-**Tools and Technologies
-**
+**Tools and Technologies**
+
 Programming Language: Python
 Libraries: TensorFlow, Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, Streamlit
 Deployment Platform: AWS
 Data Preprocessing: StandardScaler for normalization
 Model Development: TensorFlow for building the ANN model
 
-**Deliverables
-**
+**Deliverables**
+
 Cleaned Dataset: Preprocessed data ready for modeling.
+
 EDA Report: Insights and visualizations from exploratory data analysis.
+
 Feature Engineering Code: Python scripts for creating new features.
+
 Predictive Models: Trained ANN model and comparison with baseline models.
+
 Model Evaluation Report: Detailed evaluation of model performance.
+
 Insights and Recommendations: Actionable strategies for markdown optimization and inventory management.
+
 Deployment: Interactive Streamlit app hosted on AWS.
+
 Source Code and Documentation: All relevant code, comments, and documentation for reproducibility.
