@@ -4,5 +4,5 @@ scikit-learn
 tensorflow
 streamlit
 joblib
-Pillow (for PIL)
+Pillow
 streamlit-option-menu
